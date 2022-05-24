@@ -1,0 +1,12 @@
+.btn-post-red{
+    margin-left: 10px;
+    background-color: red;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+}
+.close{
+    align-self: flex-end;
+    width: 16px;
+}

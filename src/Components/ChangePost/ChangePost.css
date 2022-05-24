@@ -1,0 +1,40 @@
+.form-change{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+.header{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #e1dcdc;
+}
+
+.header-title{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.header-close{
+    cursor: pointer;
+    width: 16px;
+}
+
+.form-change_input{
+    box-sizing: border-box;
+    font-family: Arial,sans-serif;
+    padding: 10px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    resize: none;
+    width: 100%;
+    border-bottom: 1px solid #a9a0a0;
+}
+
+.btn-save{
+    margin-top: 10px;
+    align-self: flex-end;
+    padding: 10px 25px;
+}
